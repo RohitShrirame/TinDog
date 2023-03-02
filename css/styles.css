@@ -23,7 +23,7 @@ h2{
     font-weight: 800;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* NAV Bar */
@@ -51,17 +51,22 @@ h2{
  margin: 5% 3% 5% 0;
 }
 
-
 /* Title image */
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.image-container{
+    position: relative;
 }
 
 /* Features */
-
 #features{
     padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
 }
 
 .features-item{
@@ -86,7 +91,6 @@ h2{
 /* Testimonials */
 
 #testimonials{
-    
     text-align: center;
     background-color: #ef8172;
     color: #fff;
