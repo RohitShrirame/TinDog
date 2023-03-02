@@ -61,7 +61,17 @@ h2{
 .image-container{
     position: relative;
 }
-
+/* Media query */
+@media ( max-width: 1018px ){
+    #title{
+        text-align: center;
+        
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
 /* Features */
 #features{
     padding: 7% 15%;
