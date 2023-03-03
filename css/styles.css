@@ -143,11 +143,26 @@ h2{
 #cta{
     background-color: #ff4c68;
     padding: 7% 15%;
-    text-align: center;;
+    text-align: center;
 }
 
 #cta h3{
     font-size: 3.5rem;
     color: #fff;
-    padding-bottom: 5%;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+#footer P{
+    color: gray;
+}
+
+.footer-icon{
+    margin: 20px 10px;
 }
