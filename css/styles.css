@@ -75,9 +75,8 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Media query */
 @media ( max-width: 1018px ){
-    #title{
+    #title .container-fluid{
         text-align: center;
-        
     }
     .title-image{
         position: static;
